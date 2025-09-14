@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jejak Digital Halal: Ayam Crispy Pak Ganjar</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+    </style>
+</head>
+<body class="bg-gray-100 flex items-center justify-center min-h-screen">
+    <div class="w-full max-w-md mx-auto bg-white rounded-2xl shadow-lg p-6 my-8">
+        <div class="text-center">
+            <h1 class="text-2xl font-bold text-gray-800">Ayam Crispy Pak Ganjar</h1>
+            <div class="inline-flex items-center bg-green-100 text-green-700 font-semibold px-4 py-1 rounded-full text-sm mt-2">
+                <i class="fas fa-check-circle mr-2"></i>
+                Terverifikasi HideChain
+            </div>
+            <p class="text-gray-500 mt-2 text-sm">Batch ID: AYM-789</p>
+        </div>
+
+        <div class="mt-8">
+            <h2 class="text-lg font-semibold text-gray-700 mb-4">Jejak Digital Produk</h2>
+            <div class="space-y-6 border-l-2 border-dashed border-gray-300 ml-3">
+
+                <!-- Tahap 1: Peternakan -->
+                <div class="relative">
+                    <div class="absolute -left-4 top-1 w-6 h-6 bg-green-500 rounded-full flex items-center justify-center">
+                        <i class="fas fa-leaf text-white text-xs"></i>
+                    </div>
+                    <div class="ml-8">
+                        <h3 class="font-semibold text-gray-800">Asal Peternakan</h3>
+                        <p class="text-gray-600 text-sm mt-1">Peternakan "Sumber Ayam Sehat"</p>
+                        <p class="text-gray-500 text-xs mt-1">Pakan Halal (NF-112-HALAL): Terverifikasi</p>
+                    </div>
+                </div>
+
+                <!-- Tahap 2: Penyembelihan -->
+                <div class="relative">
+                    <div class="absolute -left-4 top-1 w-6 h-6 bg-green-500 rounded-full flex items-center justify-center">
+                         <i class="fas fa-moon text-white text-xs"></i>
+                    </div>
+                    <div class="ml-8">
+                        <h3 class="font-semibold text-gray-800">Proses Penyembelihan</h3>
+                        <p class="text-gray-600 text-sm mt-1">RPH "Syariah Mandiri"</p>
+                        <p class="text-gray-500 text-xs mt-1">Juleha: Bpk. Ahmad (JULEHA-045)</p>
+                        <p class="font-medium text-green-600 text-xs mt-1">Status Sembelih: Sesuai Syariat (Bismillah Tervalidasi)</p>
+                        <p class="text-gray-500 text-xs mt-1">Tanggal: 14 September 2025</p>
+                    </div>
+                </div>
+
+                <!-- Tahap 3: Logistik & Penyimpanan -->
+                <div class="relative">
+                    <div class="absolute -left-4 top-1 w-6 h-6 bg-green-500 rounded-full flex items-center justify-center">
+                        <i class="fas fa-thermometer-half text-white text-xs"></i>
+                    </div>
+                    <div class="ml-8">
+                        <h3 class="font-semibold text-gray-800">Penyimpanan & Pengiriman</h3>
+                        <p class="text-gray-600 text-sm mt-1">Riwayat Suhu Penyimpanan: Stabil (2°C - 3°C)</p>
+                        <p class="text-gray-500 text-xs mt-1">Data dari sensor IoT terverifikasi</p>
+                    </div>
+                </div>
+
+                <!-- Tahap 4: Bahan Baku -->
+                 <div class="relative">
+                    <div class="absolute -left-4 top-1 w-6 h-6 bg-green-500 rounded-full flex items-center justify-center">
+                        <i class="fas fa-mortar-pestle text-white text-xs"></i>
+                    </div>
+                    <div class="ml-8">
+                        <h3 class="font-semibold text-gray-800">Bahan Baku Tambahan</h3>
+                        <p class="text-gray-600 text-sm mt-1">Supplier "Bumbu Nusantara Halal"</p>
+                        <p class="text-gray-500 text-xs mt-1">Sertifikat Halal Bumbu & Tepung: Terverifikasi</p>
+                    </div>
+                </div>
+
+
+                <!-- Tahap 5: Dapur Restoran -->
+                <div class="relative">
+                    <div class="absolute -left-4 top-1 w-6 h-6 bg-green-500 rounded-full flex items-center justify-center">
+                        <i class="fas fa-utensils text-white text-xs"></i>
+                    </div>
+                    <div class="ml-8">
+                        <h3 class="font-semibold text-gray-800">Dapur Restoran</h3>
+                        <p class="text-gray-600 text-sm mt-1">"Ayam Crispy Pak Ganjar"</p>
+                        <p class="text-gray-500 text-xs mt-1">Proses Higienis & Bebas Kontaminasi</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        
+        <div class="text-center mt-8 pt-4 border-t border-gray-200">
+            <p class="text-xs text-gray-400">Data ini diamankan dan diverifikasi oleh HideChain. Tidak dapat diubah atau dimanipulasi.</p>
+        </div>
+    </div>
+</body>
+</html>
+
